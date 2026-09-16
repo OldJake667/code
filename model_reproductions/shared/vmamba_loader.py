@@ -8,7 +8,7 @@ import torch.nn as nn
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
-OFFICIAL_SOURCE = PROJECT_ROOT / "model_reproductions_7_models/06_vmamba_frozen/vmamba_official.py"
+OFFICIAL_SOURCE = PROJECT_ROOT / "model_reproductions/04_vmamba_from_scratch/vmamba_official.py"
 
 
 class VMambaClassifier(nn.Module):
