@@ -7,8 +7,6 @@ The comparison includes models trained from scratch and DINOv2 experiments initi
 3. `03_dinov2_pretrained/DINOv2_pretrained.ipynb` — pretrained DINOv2-S/14 and an independent classifier-only Fine-tuned DINOv2 run
 4. `04_vmamba_from_scratch/VMamba_from_scratch.ipynb` — VMamba-T from scratch
 
-The older frozen and fine-tuned folders are retained only as historical experiment artifacts; they are not used by the current combined DINOv2 experiment.
-
 ## What is constructed locally
 
 - The CNN is written layer by layer in TensorFlow.
