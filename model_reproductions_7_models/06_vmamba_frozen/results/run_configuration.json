@@ -1,0 +1,18 @@
+{
+  "phase": "frozen",
+  "method": "fixed feature extraction followed by classifier training",
+  "why_feature_cache_is_exact": "The backbone is frozen and no random augmentation is used, so its features do not change between epochs.",
+  "epochs": 20,
+  "classifier_batch_size": 16,
+  "image_extraction_batch_size": 2,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "seed": 42,
+  "training_images": 176,
+  "validation_images": 45,
+  "test_images": 0,
+  "test_set_note": "No independent test set exists in the authoritative 176/45 split.",
+  "trainable_parameters": 1538,
+  "total_parameters": 29481602,
+  "device": "cpu"
+}

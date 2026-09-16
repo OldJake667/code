@@ -1,0 +1,11 @@
+{
+  "phase": "fine_tuned_stable",
+  "epochs": 10,
+  "batch_size": 8,
+  "learning_rate": 1e-05,
+  "weight_decay": 0.0001,
+  "seed": 42,
+  "training_images": 176,
+  "validation_images": 45,
+  "device": "cpu"
+}

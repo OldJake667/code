@@ -1,0 +1,95 @@
+{
+  "final": {
+    "validation_loss": 0.2903024971485138,
+    "validation_accuracy": 0.9111111111111111,
+    "correct_predictions": 41,
+    "incorrect_predictions": 4,
+    "prediction_count": 45,
+    "confusion_matrix": [
+      [
+        22,
+        2
+      ],
+      [
+        2,
+        19
+      ]
+    ],
+    "Low": {
+      "precision": 0.9166666666666666,
+      "recall": 0.9166666666666666,
+      "f1-score": 0.9166666666666666,
+      "support": 24.0
+    },
+    "High": {
+      "precision": 0.9047619047619048,
+      "recall": 0.9047619047619048,
+      "f1-score": 0.9047619047619048,
+      "support": 21.0
+    },
+    "macro_f1": 0.9107142857142857,
+    "weighted_f1": 0.9111111111111111
+  },
+  "best_loss": {
+    "validation_loss": 0.2903024971485138,
+    "validation_accuracy": 0.9111111111111111,
+    "correct_predictions": 41,
+    "incorrect_predictions": 4,
+    "prediction_count": 45,
+    "confusion_matrix": [
+      [
+        22,
+        2
+      ],
+      [
+        2,
+        19
+      ]
+    ],
+    "Low": {
+      "precision": 0.9166666666666666,
+      "recall": 0.9166666666666666,
+      "f1-score": 0.9166666666666666,
+      "support": 24.0
+    },
+    "High": {
+      "precision": 0.9047619047619048,
+      "recall": 0.9047619047619048,
+      "f1-score": 0.9047619047619048,
+      "support": 21.0
+    },
+    "macro_f1": 0.9107142857142857,
+    "weighted_f1": 0.9111111111111111
+  },
+  "best_accuracy": {
+    "validation_loss": 0.451542247666253,
+    "validation_accuracy": 0.9555555555555556,
+    "correct_predictions": 43,
+    "incorrect_predictions": 2,
+    "prediction_count": 45,
+    "confusion_matrix": [
+      [
+        22,
+        2
+      ],
+      [
+        0,
+        21
+      ]
+    ],
+    "Low": {
+      "precision": 1.0,
+      "recall": 0.9166666666666666,
+      "f1-score": 0.9565217391304348,
+      "support": 24.0
+    },
+    "High": {
+      "precision": 0.9130434782608695,
+      "recall": 1.0,
+      "f1-score": 0.9545454545454546,
+      "support": 21.0
+    },
+    "macro_f1": 0.9555335968379447,
+    "weighted_f1": 0.9555994729907774
+  }
+}

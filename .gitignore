@@ -1,0 +1,18 @@
+# Local environments and downloaded dependencies
+.venv/
+**/.deps/
+__pycache__/
+*.pyc
+
+# Training artifacts too large for the source repository
+*.pth
+*.pt
+*.safetensors
+*.h5
+**/pretrained/
+
+# Runtime logs and OS metadata
+*.log
+.DS_Store
+
+# Keep generated accuracy figures, CSV metrics, and JSON summaries tracked.
