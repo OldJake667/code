@@ -36,10 +36,3 @@ Every new run saves three checkpoints:
 The fine-tuning notebooks start from `best_validation_loss`. This is a normal model-selection checkpoint because loss contains more information than accuracy when several epochs have the same number of correct images. The best-accuracy checkpoint is also preserved and reported.
 
 Selecting a checkpoint and measuring it on the same validation set produces a **best-validation result**, not an independent test result. A future independent test set would be needed for an unbiased final accuracy estimate.
-
-## Kernels
-
-- CNN notebook: `/Users/olzhi/Desktop/Paper replication/.venv/bin/python`
-- ViT, DINOv2 and VMamba notebooks: `/Users/olzhi/Documents/Research/Research 2026-07-15/.venv/bin/python`
-
-Run each notebook independently; the DINOv2 notebook downloads its pretrained `timm` weights on the first run.
